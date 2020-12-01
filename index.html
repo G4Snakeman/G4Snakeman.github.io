@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unknow Whatsapp</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 
-<body>
+<body class="page">
 
-    <form action="/" method="POST">
-        <label for="phone">Teléfono</label>
-        <input id="phone" type="number" placeholder="Introducir número..." pattern="[6-7][0-9]{8}" required>
-        <button id="send">Abrir Whatsapp</button>
+    <form class="form" action="/" method="POST">
+        <label class="form__label" for="phone">Teléfono</label>
+        <input class="form__input" id="phone" type="number" placeholder="Introducir número..." pattern="[6-7][0-9]{8}"
+            required>
+        <button class="form__button" id="send">Abrir Whatsapp</button>
     </form>
 
 </body>
